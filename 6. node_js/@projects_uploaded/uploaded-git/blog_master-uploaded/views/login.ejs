@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head') %>
+
+    <body>
+        <%- include('./partials/nav') %>
+            <div class="loginContainer">
+                <!-- <div> -->
+                <form class="box" action="/login" method="post">
+                    <h2 style="
+                    color: white;
+                    text-align: center;
+                    margin: 8px 0;
+                    letter-spacing: 2px;
+                ">Login </h2>
+                    <input type="email" name="email" id="useremail" class="inp" placeholder="'Enter Your Email"
+                        value="<%= locals.email  %>" required>
+                    <input type="password" name="password" id="userpassword" class="inp"
+                        placeholder="Enter Your Password Here" required>
+                    <p style="color: red;font-weight: 600;letter-spacing: 1px;">
+                        <%= locals.message%>
+                    </p>
+                    <button type="submit" class="inp loginBtn">Login</button>
+                    <p class="signup"> Don't have an account?
+                        <a href="/register">Sign UP</a>
+                    </p>
+                    <a href="/reset" style="text-decoration: none;">
+                        <p class="signup"> Forgotten Password?
+
+                        </p>
+                    </a>
+                </form>
+                <!-- </div> -->
+            </div>
+
+    </body>
+    <%- include('./partials/scripts') %>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        input[type=text],
+        input[type=password],
+        textarea {
+            padding: 12px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=text],
+        input[type=password] {
+            flex: 1;
+        }
+
+        textarea {
+            width: 100%;
+        }
+
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        @media (max-width: 600px) {
+
+            input[type=text],
+            input[type=password] {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Responsive Form</h2>
+
+    <div class="container">
+        <form action="/action_page.php">
+            <input type="text" id="username" name="username" placeholder="Username">
+            <input type="password" id="password" name="password" placeholder="Password">
+            <textarea id="description" name="description" placeholder="Description" style="height:200px"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+
+</html>

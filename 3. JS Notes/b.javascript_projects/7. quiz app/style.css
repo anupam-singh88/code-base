@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lato:wght@300&family=Montserrat:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #b8c6db;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 60%), 0 8px 16px rgb(0 0 0 / 60%);
+  background-color: white;
+  border-radius: 8px;
+  /* padding: 30px; */
+  letter-spacing: 1.2px;
+  word-spacing: 4px;
+}
+
+.ops {
+  /* margin: 20px 0; */
+  font-size: 1.2rem;
+  margin: 1px 230px 39px 60px;
+}
+
+#btn {
+  background-color: #8e44ad;
+  padding: 15px 0;
+  width: 100%;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  /* border-radius: 4px; */
+  cursor: pointer;
+}
+
+#btn1 {
+  background-color: #8e44ad;
+  padding: 15px 0;
+  width: 100%;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  /* border-radius: 4px; */
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .box {
+    width: 85vw;
+  }
+
+  .ops {
+    margin: 0 0 20px 0px;
+  }
+
+  #btn1 {
+    margin-top: 10px;
+  }
+}

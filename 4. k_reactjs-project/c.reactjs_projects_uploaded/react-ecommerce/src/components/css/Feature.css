@@ -1,0 +1,65 @@
+.featureContainer {
+    /* width: 80%; */
+    text-align: center;
+    /* margin: auto; */
+}
+
+.itmBox {
+    border-bottom: 3px solid #245eaa;
+    display: inline-block;
+    padding-bottom: 2px;
+}
+
+.featureImg {
+    width: 300px;
+    margin: 2px;
+}
+
+.featureItem a {
+    text-decoration: none;
+}
+
+.boxFe {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    margin: 15px 0;
+}
+
+.caption {
+    display: flex;
+    justify-content: space-around;
+    font-size: 11px;
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 1350px) {
+
+    .boxFe {
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .featureImg {
+        width: 200px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+    .featureImg {
+        width: 140px;
+
+    }
+
+    .caption {
+        font-size: 8px;
+    }
+
+
+}

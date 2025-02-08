@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.box1 {
+    width: 50%;
+    height: 92vh;
+    /* border: 2px solid red; */
+    background-image: url(images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 img {
+    width: 370px;
+}
+
+.box2 {
+    width: 50%;
+    height: 92vh;
+    /* border: 2px solid rgb(52, 13, 119); */
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    padding: 50px;
+}
+
+.logo {
+    width: 60px;
+}
+
+.heading {
+    font-size: 60px;
+    margin: 36px 0;
+    letter-spacing: 1px;
+}
+
+.text {
+    font-size: 25px;
+    letter-spacing: 0.6px;
+}
+
+.sign_up_box {
+    border: 2px solid #b5b2b2;
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+    border-radius: 25px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    width: 31%;
+    cursor: pointer;
+}
+
+.sign_up_box:hover {
+    background-color: rgb(195, 190, 190);
+}
+
+.store_img {
+    width: 28px;
+    margin: 5px;
+}
+
+.apple img {
+    width: 17px;
+    margin: 0 12px;
+    padding: 5px 0;
+}
+
+.phone {
+    padding: 9px 0 8px 12px;
+    font-size: 11px;
+}
+
+.container2 {
+    /* background-color: #bcb8b8; */
+    display: flex;
+    align-items: center;
+    height: 8vh;
+    padding: 0 10px;
+}
+
+.container2 a {
+    color: rgb(151, 143, 143);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+.container2 a:hover {
+    text-decoration: underline;
+}
+
+.a {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 33px 0 0 0;
+}
+
+.a a {
+    color: rgb(111, 111, 222);
+    text-decoration: none;
+}
+
+.a a:hover {
+    color: rgb(89, 89, 206);
+    text-decoration: underline;
+}
+
+.b {
+    margin: 9px 0;
+    font-size: 15px;
+}
+
+.b a {
+    color: rgb(60, 60, 185);
+    text-decoration: none;
+}
+
+.b a:hover {
+    color: rgb(44, 44, 187);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+    .box1 {
+        display: none;
+    }
+
+    .box2 {
+        height: auto;
+        width: auto;
+    }
+
+    .sign_up_box {
+        width: 35vw;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+
+    .container2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .sign_up_box {
+        width: auto
+    }
+}

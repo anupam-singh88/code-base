@@ -1,0 +1,34 @@
+<div class="navbar" id='navBar'>
+    <div class="logo">
+        <p>Blog <span class='heading'>Master</span></p>
+    </div>
+    <div class="navUl">
+        <ul>
+            <a href='/'>
+                <li>Home</li>
+            </a>
+            <a href='/about'>
+                <li>About</li>
+            </a>
+            <a href='/blog'>
+                <li>Add Blogs</li>
+            </a>
+
+        </ul>
+        <div class="navBtns">
+            <% if (locals.loginBool || locals.indmsg){ %>
+                <a href='/login'>
+                    <button class='login'>Log In</button></a>
+                <% }else {%>
+                    <a href="/logout"> <button type="submit" class="login ">LogOut</button></a>
+                    <% } %>
+
+        </div>
+    </div>
+
+    <div class="burger" onClick="burgerHandler()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+</div>

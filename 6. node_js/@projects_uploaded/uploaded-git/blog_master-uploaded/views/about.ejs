@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head') %>
+
+    <body>
+        <%- include('./partials/nav') %>
+            <div class="center">
+
+
+                <h1>About Blog Master</h1>
+                <br>
+                <p>Blog Master is a comprehensive blogging application built with Node.js, EJS, and MongoDB. It provides
+                    a
+                    platform for users to create, read, edit, and delete blogs. In addition to these CRUD operations, it
+                    also includes user authentication features like login, logout, and signup functionalities.</p>
+                <br>
+                <h2>Features</h2>
+                <br>
+                <ul>
+                    <li><strong>Create Blog:</strong> Users can create a new blog with a title and content.</li>
+                    <li><strong>Read Blog:</strong> Users can read existing blogs posted by other users.</li>
+                    <li><strong>Edit Blog:</strong> Users can edit their own blogs. This feature ensures that users have
+                        control over their content.</li>
+                    <li><strong>Delete Blog:</strong> Users can delete their own blogs. This feature provides users with
+                        the
+                        flexibility to manage their content.</li>
+                    <li><strong>User Authentication:</strong> The application includes signup, login, and logout
+                        functionalities. It also includes a forgotten password feature that allows users to reset their
+                        password.</li>
+                </ul>
+                <br>
+                <hr>
+                <br>
+                <h2>Technologies Used</h2>
+                <br>
+                <ul>
+                    <li><strong>Node.js:</strong> A JavaScript runtime built on Chrome's V8 JavaScript engine.</li>
+                    <li><strong>EJS:</strong> A simple templating language that lets you generate HTML markup with plain
+                        JavaScript.</li>
+                    <li><strong>MongoDB:</strong> A source-available cross-platform document-oriented database program.
+                    </li>
+                </ul>
+                <br>
+                <hr>
+                <br>
+                <h2>Dependencies</h2><br>
+                <ul>
+                    <li><strong>bcryptjs:</strong> A library to help you hash passwords.</li>
+                    <li><strong>cookie-parser:</strong> Parse Cookie header and populate req.cookies with an object
+                        keyed by
+                        the cookie names.</li>
+                    <li><strong>dotenv:</strong> Loads environment variables from a .env file into process.env.</li>
+                    <li><strong>ejs:</strong> Embedded JavaScript templates.</li>
+                    <li><strong>express:</strong> Fast, unopinionated, minimalist web framework for Node.js</li>
+                    <li><strong>jsonwebtoken:</strong> An implementation of JSON Web Tokens.</li>
+                    <li><strong>mongoose:</strong> A MongoDB object modeling tool designed to work in an asynchronous
+                        environment.</li>
+                    <li><strong>multer:</strong> A middleware for handling multipart/form-data, which is primarily used
+                        for
+                        uploading files.</li>
+                    <li><strong>nodemon:</strong> A tool that helps develop Node.js based applications by automatically
+                        restarting the node application when file changes in the directory are detected.</li>
+                </ul>
+            </div>
+    </body>
+    <%- include('./partials/scripts') %>
+
+</html>

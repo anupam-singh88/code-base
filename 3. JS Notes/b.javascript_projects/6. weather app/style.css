@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Lato:wght@300&family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(187, 198, 206);
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+}
+
+#searchBox {
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.weather {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.weatherbx {
+    display: flex;
+    align-items: center;
+}
+
+/* 
+#map {
+    width: 50vw;
+} */

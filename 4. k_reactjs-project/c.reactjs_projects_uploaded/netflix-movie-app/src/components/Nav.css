@@ -1,0 +1,22 @@
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    /* z-index: 1; */
+}
+.nav__black{
+        background-color: #222222;
+    height: 5vh;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+.nav img{
+    position: fixed;
+
+        width: 135px;
+    /* top: 34px; */
+    /* position: absolute; */
+    left: 30px;
+    object-fit: contain;
+}

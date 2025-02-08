@@ -1,0 +1,283 @@
+*****to start mongodb in terminal write <mongosh> without braces**********
+
+
+************* check all the dbs present in database***********
+test> show dbs
+admin   40.00 KiB
+config  72.00 KiB
+local   40.00 KiB
+
+****use will create new db or can be use to switch to the another db*********
+test> use thapatechnical
+switched to db thapatechnical
+
+***********db show only one there is atleast one collection present in db
+thapatechnical> show dbs
+admin   40.00 KiB
+config  72.00 KiB
+local   40.00 KiB
+
+
+*********insert one object in collection****
+thapatechnical> db.thapadata.insertOne({name: "anupam",type:"backend",age:23,active:true})
+{
+  acknowledged: true,
+  insertedId: ObjectId("64d8f562229ba0a21b51a344")
+}
+
+****checking db***************
+thapatechnical> show dbs
+admin           40.00 KiB
+config          72.00 KiB
+local           40.00 KiB
+thapatechnical   8.00 KiB
+thapatechnical> db
+thapatechnical
+thapatechnical> show collections
+thapadata
+thapatechnical> db.thapadata.find()
+[
+  {
+    _id: ObjectId("64d8f562229ba0a21b51a344"),
+    name: 'anupam',
+    type: 'backend',
+    age: 23,
+    active: true
+  }
+]
+
+
+
+***********checking content of db*************
+thapatechnical> db.thapadata.find().pretty()
+[
+  {
+    _id: ObjectId("64d8f562229ba0a21b51a344"),
+    name: 'anupam',
+    type: 'backend',
+    age: 23,
+    active: true
+  }
+]
+******************updating data******************************
+*********checking collections**************
+thapatechnical> show collections
+thapadata
+
+*******insertone document at time**********
+thapatechnical> db.thapadata.insertOne({name:"juhi",age:25,honest:false})
+{
+  acknowledged: true,
+  insertedId: ObjectId("64d8f66a818b1fa91e01b65f")
+}
+
+******content checking*********
+thapatechnical> db.thapadata.find().pretty()
+[
+  {
+    _id: ObjectId("64d8f562229ba0a21b51a344"),
+    name: 'anupam',
+    type: 'backend',
+    age: 23,
+    active: true
+  },
+  {
+    _id: ObjectId("64d8f66a818b1fa91e01b65f"),
+    name: 'juhi',
+    age: 25,
+    honest: false
+  }
+]
+
+*****inserting many documents************
+thapatechnical> db.thapadata.insertMany([{name:"nishant",type:"friend"},{name:"rakhi",type:gf}])
+ReferenceError: gf is not defined
+thapatechnical> db.thapadata.insertMany([{name:"nishant",type:"friend"},{name:"rakhi",type:"gf"}])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId("64d8f6de818b1fa91e01b660"),
+    '1': ObjectId("64d8f6de818b1fa91e01b661")
+  }
+}
+thapatechnical> db.thapadata.find().pretty()
+[
+  {
+    _id: ObjectId("64d8f562229ba0a21b51a344"),
+    name: 'anupam',
+    type: 'backend',
+    age: 23,
+    active: true
+  },
+  {
+    _id: ObjectId("64d8f66a818b1fa91e01b65f"),
+    name: 'juhi',
+    age: 25,
+    honest: false
+  },
+  {
+    _id: ObjectId("64d8f6de818b1fa91e01b660"),
+    name: 'nishant',
+    type: 'friend'
+  },
+  {
+    _id: ObjectId("64d8f6de818b1fa91e01b661"),
+    name: 'rakhi',
+    type: 'gf'
+  }
+]
+
+
+
+
+******checking documents of db*************
+thapatechnical> db.thapadata.find()
+[
+  {
+    _id: ObjectId("64d8f562229ba0a21b51a344"),
+    name: 'anupam',
+    type: 'backend',
+    age: 23,
+    active: true
+  },
+  {
+    _id: ObjectId("64d8f66a818b1fa91e01b65f"),
+    name: 'juhi',
+    age: 25,
+    honest: false
+  },
+  {
+    _id: ObjectId("64d8f6de818b1fa91e01b660"),
+    name: 'nishant',
+    type: 'friend'
+  },
+  {
+    _id: ObjectId("64d8f6de818b1fa91e01b661"),
+    name: 'rakhi',
+    type: 'gf'
+  }
+]
+
+*********
+thapatechnical> db.thapadata.find()
+[
+  {
+    _id: ObjectId("64d8fbcaf04a85cc194887b6"),
+    name: 'nishant',
+    type: 'friend'
+  },
+  {
+    _id: ObjectId("64d8fbcaf04a85cc194887b7"),
+    name: 'rakhi',
+    type: 'gf'
+  }
+]
+thapatechnical> db.thapadata.find({name:"nishant"})
+[
+  {
+    _id: ObjectId("64d8fbcaf04a85cc194887b6"),
+    name: 'nishant',
+    type: 'friend'
+  }
+]
+thapatechnical> db.thapadata.find({name:"nishant"},{name:1})
+
+[ { _id: ObjectId("64d8fbcaf04a85cc194887b6"), name: 'nishant' } ]
+thapatechnical> db.thapadata.find({name:"nishant"},{_id:0,name:1})
+[ { name: 'nishant' } ]
+thapatechnical> db.thapadata.find({name:"nishant"}).limit(1)
+
+[
+  {
+    _id: ObjectId("64d8fbcaf04a85cc194887b6"),
+    name: 'nishant',
+    type: 'friend'
+  }
+]
+thapatechnical>
+
+thapatechnical> db.thapadata.findOne({name:"nishant"})
+{
+  _id: ObjectId("64d8fbcaf04a85cc194887b6"),
+  name: 'nishant',
+  type: 'friend'
+}
+******************
+
+***updating one document of db************
+thapatechnical> db.thapadata.updateOne({name: "anupam"},{$set: {type: "full stack"}})
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+****************************
+thapatechnical> db.thapadata.find().pretty()
+[
+  {
+    _id: ObjectId("64d8f562229ba0a21b51a344"),
+    name: 'anupam',
+    type: 'full stack',
+    age: 23,
+    active: true
+  },
+  {
+    _id: ObjectId("64d8f66a818b1fa91e01b65f"),
+    name: 'juhi',
+    age: 25,
+    honest: false
+  },
+  {
+    _id: ObjectId("64d8f6de818b1fa91e01b660"),
+    name: 'nishant',
+    type: 'friend'
+  },
+  {
+    _id: ObjectId("64d8f6de818b1fa91e01b661"),
+    name: 'rakhi',
+    type: 'gf'
+  }
+]
+
+*************updating more than one document of dbs*************
+thapatechnical> db.thapadata.updateMany({name: "anupam"},{$set: {type: "full stack"}})
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 0,
+  upsertedCount: 0
+}
+
+
+
+******deleting the document**********
+thapatechnical> db.thapadata.deleteMany({type:"full stack"})
+{ acknowledged: true, deletedCount: 1 }
+thapatechnical> db.thapadata.find()
+[
+  {
+    _id: ObjectId("64d8f66a818b1fa91e01b65f"),
+    name: 'juhi',
+    age: 25,
+    honest: false
+  },
+  {
+    _id: ObjectId("64d8f6de818b1fa91e01b660"),
+    name: 'nishant',
+    type: 'friend'
+  },
+  {
+    _id: ObjectId("64d8f6de818b1fa91e01b661"),
+    name: 'rakhi',
+    type: 'gf'
+  }
+]
+
+***********deleting the whole db at a time************
+thapatechnical> db.thapadata.deleteMany({})
+{ acknowledged: true, deletedCount: 3 }
+thapatechnical> db.thapadata.find().pretty()

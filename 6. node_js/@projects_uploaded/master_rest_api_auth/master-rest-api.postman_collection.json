@@ -1,0 +1,294 @@
+{
+	"info": {
+		"_postman_id": "9efb1195-d28e-4641-9e4a-410ba97d5f06",
+		"name": "master-rest-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29145752"
+	},
+	"item": [
+		{
+			"name": "registerUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "fullName",
+							"value": "123",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "e@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "e123123",
+							"type": "text"
+						},
+						{
+							"key": "avatar",
+							"type": "file",
+							"src": "/C:/Users/user/Downloads/blog-master.png"
+						},
+						{
+							"key": "coverImage",
+							"type": "file",
+							"src": "/C:/Users/user/Downloads/profile-pic (1)-fotor-bg-remover-202406101124.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{server}}/users/register",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"users",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"anuam\",\r\n    \"email\":\"anupamsingh2389@gmail.com\",\r\n    \"password\":\"12345\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/users/login",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"users",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "logout",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "yJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjZmZTFiMzQzMGU4YjdiZTI2ZTA5ZDIiLCJlbWFpbCI6ImFudXBhMjM0bXNzaW5naDIzODlAZ21haWwuY29tIiwidXNlcm5hbWUiOiJhbnVwYTJtc3NpZ25oOTk5XG4zNDUiLCJmdWxsTmFtZSI6ImFudXNzcGFtIiwiaWF0IjoxNzE4NjE5MTY2LCJleHAiOjE3MTg3MDU1NjZ9.iqOjCx5uTIp1n4LFlTCKcRA4-p9voANmAtUPyue3-mU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userId\":\"666fe1b3430e8b7be26e09d2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/users/logout",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"users",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "referesh token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"refreshToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjZmZTFiMzQzMGU4YjdiZTI2ZTA5ZDIiLCJlbWFpbCI6ImFudXBhMjM0bXNzaW5naDIzODlAZ21haWwuY29tIiwidXNlcm5hbWUiOiJhbnVwYTJtc3NpZ25oOTk5XG4zNDUiLCJmdWxsTmFtZSI6ImFudXNzcGFtIiwiaWF0IjoxNzE4NjE5MTY2LCJleHAiOjE3MTg3MDU1NjZ9.iqOjCx5uTIp1n4LFlTCKcRA4-p9voANmAtUPyue3-mU\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/users/refresh-token",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"users",
+						"refresh-token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "change Password",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjZmZTFiMzQzMGU4YjdiZTI2ZTA5ZDIiLCJlbWFpbCI6ImFudXBhMjM0bXNzaW5naDIzODlAZ21haWwuY29tIiwidXNlcm5hbWUiOiJhbnVwYTJtc3NpZ25oOTk5XG4zNDUiLCJmdWxsTmFtZSI6ImFudXNzcGFtIiwiaWF0IjoxNzE4NjE5MTc5LCJleHAiOjE3MTg3MDU1Nzl9.gmfyR6Y1Zte1XLInq8Oho0qMk2Qtgu9Q-dBtM2grNRI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"oldPassword\":\"1234\",\r\n    \"newPassword\":\"12345\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/users/change-password",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"users",
+						"change-password"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "current-user",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjZmZTFiMzQzMGU4YjdiZTI2ZTA5ZDIiLCJlbWFpbCI6ImFudXBhbXNpbmdoMjM4OUBnbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFudXBhMm1zc2lnbmg5OTlcbjM0NSIsImZ1bGxOYW1lIjoiYW51cGFtIHNpbmdoIiwiaWF0IjoxNzE4NjIwMTE1LCJleHAiOjE3MTg3MDY1MTV9.XkOb26HSM7c5Fuuh1lsThfEG6K4XMLkLrpZWgmZmYPg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}/users/current-user",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"users",
+						"current-user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update-emal and fullname",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjZmZTFiMzQzMGU4YjdiZTI2ZTA5ZDIiLCJlbWFpbCI6ImFudXBhMjM0bXNzaW5naDIzODlAZ21haWwuY29tIiwidXNlcm5hbWUiOiJhbnVwYTJtc3NpZ25oOTk5XG4zNDUiLCJmdWxsTmFtZSI6ImFudXNzcGFtIiwiaWF0IjoxNzE4NjE5MTc5LCJleHAiOjE3MTg3MDU1Nzl9.gmfyR6Y1Zte1XLInq8Oho0qMk2Qtgu9Q-dBtM2grNRI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fullName\":\"anupam singh\",\r\n    \"email\":\"anupamsingh2389@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/users/update-account",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"users",
+						"update-account"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update-Avatar",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjZmZTFiMzQzMGU4YjdiZTI2ZTA5ZDIiLCJlbWFpbCI6ImFudXBhbXNpbmdoMjM4OUBnbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFudXBhMm1zc2lnbmg5OTlcbjM0NSIsImZ1bGxOYW1lIjoiYW51cGFtIHNpbmdoIiwiaWF0IjoxNzE4NjIwMTE1LCJleHAiOjE3MTg3MDY1MTV9.XkOb26HSM7c5Fuuh1lsThfEG6K4XMLkLrpZWgmZmYPg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "avatar",
+							"type": "file",
+							"src": "/C:/Users/user/Downloads/a.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{server}}/users/avatar",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"users",
+						"avatar"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

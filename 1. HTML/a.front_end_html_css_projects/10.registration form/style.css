@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    background: linear-gradient(rgb(116 177 224), rgb(149 101 185));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    border-bottom: 2px solid #cc31cc;
+    margin: 0 0 10px 0;
+    padding: 0 0 3px 0;
+    display: inline-block;
+}
+
+.container {
+    background-color: white;
+    padding: 35px;
+    background: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.inpField {
+    padding: 6px;
+    border: 1px solid #b0a4a4;
+    border-radius: 3px;
+}
+
+.gridBox {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 17px 34px;
+}
+
+.genderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 22px 0;
+}
+
+.btn {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background: linear-gradient(rgb(116 177 224), rgb(149 101 185));
+    color: white;
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+
+.checkbox {
+    visibility: hidden;
+    position: absolute;
+    margin: 5px;
+}
+
+.chkVisible {
+    visibility: visible;
+}
+
+.wrongchk {
+    visibility: hidden;
+    position: absolute;
+    margin: 5px;
+}
+
+.wrongVis {
+    visibility: visible;
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        width: 80vw;
+    }
+
+    .gridBox {
+        grid-gap: 8px 11px;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    .gridBox {
+        grid-template-columns: auto;
+    }
+
+    .inpField {
+        width: 100%;
+    }
+}
+
+.d-none {
+    display: none;
+}
+
+.input-group-text {
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 8px;
+    font-size: 10px;
+}

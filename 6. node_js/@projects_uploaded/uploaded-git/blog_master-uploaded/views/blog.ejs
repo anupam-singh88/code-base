@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head') %>
+
+    <body>
+        <%- include('./partials/nav') %>
+            <form class="addBlog" action="/publish" method="post" enctype="multipart/form-data">
+                <h3>Welcome, <%= locals.name %>
+                </h3> <br>
+                <fieldset style="padding: 15px;">
+                    <legend>Add Blogs:</legend>
+                    <label for="file">Cover Image : </label>
+                    <input type="file" id="file" name="coverimage" class="inp" required><br><br>
+
+                    <label for="title">Enter Title :</label>
+                    <input type="text" id="title" name="title" class="inp" required><br><br>
+
+                    <label for="desc">Description:</label>
+                    <textarea type="text" id="desc" name="desc" class="inp" required></textarea>
+
+                    <button type="submit" class="login" style="margin: 0px !important;">Publish</button>
+                </fieldset>
+            </form>
+
+    </body>
+    <%- include('./partials/scripts') %>
+
+</html>

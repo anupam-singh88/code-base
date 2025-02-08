@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #abd4a0;
+}
+
+.container {
+  /* border: 2px solid red; */
+  padding: 25px 37px;
+  background-color: #e2e7ef;
+  border-radius: 8px;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+#genderField {
+  padding: 7px;
+  letter-spacing: 1px;
+  border: 1px solid #bab1b1;
+  border-radius: 5px;
+  /* font-weight: 600; */
+}
+
+.inp {
+  padding: 7px;
+  letter-spacing: 1px;
+  border: 1px solid #bab1b1;
+  border-radius: 5px;
+  /* width: 100%; */
+}
+
+.addressField2 {
+  display: flex;
+  gap: 15px;
+
+}
+
+#submitBtn {
+  width: 100%;
+  padding: 6px;
+  margin: 17px 0;
+  border: none;
+  background-color: #8992d7;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#submitBtn:hover {
+  background-color: #1e2ea9;
+}
+
+.addressField {
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    font-size: 11px;
+    width: 65%;
+    margin: auto;
+  }
+
+  .inp {
+    width: 92%;
+    letter-spacing: 0.5px;
+  }
+}

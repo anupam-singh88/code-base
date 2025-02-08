@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bb2455fa48.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="formContainer">
+            <div class="heading">
+                <h3>Registration</h3>
+            </div>
+            <form>
+                <!-- <form onsubmit="submitHandler() ;return false"> -->
+                <div class="gridBox">
+                    <!-- First Name -->
+                    <div>
+                        <label for="fName"><strong>Full Name</strong> </label><br>
+                        <input type="text" name="fName" id="fName" placeholder="Enter Full Name" class="inpField"
+                            onkeyup="checkVal()">
+                        <i class="fa-regular fa-circle-xmark wrongchk" style="color: #e01a1a;"></i>
+                        <i class="fa-regular fa-circle-check fa-beat-fade checkbox" style="color: #42cf26;"></i>
+                    </div>
+                    <div>
+                        <label for="uName"><strong>User Name</strong></label> <br>
+                        <input type="text" name="uName" id="uName" placeholder="Enter UserName" onkeyup="checkVal()"
+                            class="inpField">
+                        <i class="fa-regular fa-circle-xmark wrongchk" style="color: #e01a1a;"></i>
+                        <i class="fa-regular fa-circle-check fa-beat-fade checkbox" style="color: #42cf26;"></i>
+                    </div>
+                    <div>
+                        <label for="uEmail"><strong>Email</strong></label> <br>
+                        <input type="email" name="uEmail" id="uEmail" placeholder="Enter Email"
+                            onkeyup="validateEmail()" class="inpField">
+                        <i class="fa-regular fa-circle-xmark wrongchk" style="color: #e01a1a;"></i>
+                        <i class="fa-regular fa-circle-check fa-beat-fade checkbox" style="color: #42cf26;"></i>
+                    </div>
+                    <div>
+                        <label for="phNo"><strong>Phone Number</strong></label> <br>
+                        <input type="number" name="phNo" id="phNo" onkeyup="checkVal()" placeholder="Enter Phone Number"
+                            class="inpField" maxlength="10" minlength="10">
+                        <i class="fa-regular fa-circle-xmark wrongchk" style="color: #e01a1a;"></i>
+                        <i class="fa-regular fa-circle-check fa-beat-fade checkbox" style="color: #42cf26;"></i>
+                    </div>
+                    <div>
+                        <label for="password"><strong>Password</strong></label> <br>
+                        <input type="password" name="password" id="password" onkeyup="validatePass()"
+                            placeholder="Enter Password" class="inpField">
+
+                        <i class="fa-regular fa-circle-xmark wrongchk" style="color: #e01a1a;"></i>
+                        <i class="fa-regular fa-circle-check fa-beat-fade checkbox" style="color: #42cf26;"></i>
+                        <!-- <div class="input-group-append"> -->
+                        <span class="input-group-text" onclick="password_show_hide();">
+                            <i class="fas fa-eye" id="show_eye"></i>
+                            <i class="fas fa-eye-slash d-none" id="hide_eye"></i>
+                        </span>
+                        <!-- </div> -->
+
+                    </div>
+                    <div>
+                        <label for="cPassword"><strong>Confirm Password</strong></label> <br>
+                        <input type="password" name="cPassword" id="cPassword" onkeyup="comparePassword()"
+                            placeholder="Confirm Password" class="inpField">
+                        <i class="fa-regular fa-circle-xmark wrongchk" style="color: #e01a1a;"></i>
+                        <i class="fa-regular fa-circle-check fa-beat-fade checkbox" style="color: #42cf26;"></i>
+                    </div>
+                </div>
+
+                <div class="genderContainer">
+                    <label for="male">
+                        <input type="radio" name="gender" value="male" id="male"> Male</label>
+                    <label for="female">
+                        <input type="radio" name="gender" value="feMale" id="female">Female</label>
+                    <label for="none">
+                        <input type="radio" name="gender" value="none" id="none">Prefer not to say</label>
+                </div>
+                <input class="btn" id="submitBtn" type="submit" value="Register" />
+                <!-- <button class="btn" type="submit">Register</button> -->
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head') %>
+
+    <body>
+        <%- include('./partials/nav') %>
+
+
+            <br>
+            <div class="blogContainer">
+                <h1 class="hello">
+                    <%= locals.title %>
+                </h1>
+                <div class="imageContainer">
+                    <img src="<%=locals.coverImageURL  %>" alt="image not found" class="blogImage">
+                </div>
+                <p class="desc">
+                    <%= locals.content %>
+                </p>
+                <p>Author : <%= locals.authorName %>
+                </p>
+
+                <div style="margin: 20px 0;"> <a href="/edit/<%= locals.blogId %>"><button
+                            class="login">Edit</button></a>
+                    <a href="/delete/<%= locals.blogId %>"><button class="login">Delete</button></a>
+                </div>
+            </div>
+
+    </body>
+    <%- include('./partials/scripts') %>
+
+</html>

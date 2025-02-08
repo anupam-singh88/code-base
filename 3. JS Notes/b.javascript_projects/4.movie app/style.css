@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Lato:wght@300&family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    background-color: #586BA4;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 9vh;
+    background-color: #094074;
+    color: white;
+    letter-spacing: 4pm;
+}
+
+.navUl {
+
+    display: flex;
+
+}
+
+.navUl li {
+    list-style: none;
+    margin: 0 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.navUl li:hover {
+    text-decoration: underline;
+}
+
+#searchBox {
+    padding: 6px;
+    border: none;
+    border-radius: 3px;
+}
+
+.card {
+    text-align: center;
+    width: 20%;
+    margin: 20px;
+    background-color: #93A3BC;
+    color: white;
+    /* font-weight: 600; */
+    padding-bottom: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 9px;
+    margin: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #910f3e;
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.burger {
+    position: absolute;
+    /* display: none; */
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line {
+    width: 33px;
+    background-color: rgb(255, 243, 243);
+    margin: 3px 3px;
+    height: 4px;
+}
+
+.h-nav {
+    height: 130px;
+}
+
+.v-class {
+    display: flex;
+}
+
+@media screen and (max-width: 500px) {
+    nav {
+        flex-direction: column;
+        /* height: 130px; */
+    }
+
+    #navUl {
+        display: none;
+    }
+
+    #form {
+        display: none;
+    }
+
+    #container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .card {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #container {
+        /* display: grid; */
+        grid-template-columns: auto;
+    }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Container</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .services {
+            min-height: auto;
+            padding-bottom: 10rem;
+        }
+
+        .services h2 {
+            margin-bottom: 5rem;
+        }
+
+        .services .services-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .services-container .services-box {
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 80px;
+
+            /* flex: 1 1 30rem; */
+            background: var(--bg-color);
+            padding: 3rem 2rem 4rem;
+            border-radius: 2rem;
+            box-shadow: 0 .1rem .5rem var(--shadow-color);
+            text-align: center;
+            border-top: .6rem solid var(--main-color);
+            border-bottom: .6rem solid var(--main-color);
+            transition: .5s ease;
+            border: 2px solid red;
+
+        }
+
+        /* .services-container .services-box:hover {
+            box-shadow: 0 .1rem 2rem var(--shadow-color);
+            transform: scale(1.02);
+        } */
+
+        .services-box i {
+            font-size: 7rem;
+            color: var(--main-color);
+        }
+
+        .services-box h3 {
+            font-size: 2.6rem;
+            transition: .5s ease;
+        }
+
+        /* .services-box:hover h3 {
+            color: var(--main-color);
+        } */
+
+        .services-box p {
+            font-size: 1.6rem;
+            margin: 1rem 0 3rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi itaque similique, architecto
+                    eaque ut quas delectus pariatur nesciunt in eligendi mollitia dicta.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi itaque similique, architecto
+                    eaque ut quas delectus pariatur nesciunt in eligendi mollitia dicta.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi itaque similique, architecto
+                    eaque ut quas delectus pariatur nesciunt in eligendi mollitia dicta.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+
+
+    </script>
+</body>
+
+</html>

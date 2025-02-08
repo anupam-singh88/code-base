@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  background-color: #047bd5;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 125px;
+  margin: 0 35px;
+}
+.navbar {
+  display: flex;
+  height: 9vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+}
+ul a:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}
+#searchBox {
+  padding: 6px;
+  width: 254px;
+  margin: 0 13px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+.searchBtn {
+  padding: 6px;
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  padding-left: 14px;
+  padding-right: 14px;
+  cursor: pointer;
+}
+.container {
+  min-height: calc(100vh - 9vh - 8vh);
+}
+.slider {
+  /* border: 2px solid red; */
+  width: 70vw;
+  margin: 5px auto;
+}
+.card_container::-webkit-scrollbar {
+  display: none;
+}
+.card_container {
+  display: flex;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+.card {
+  /* border: 2px solid black; */
+  margin: 2px auto;
+  max-width: 85vw;
+}
+.card__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+  width: 15vw;
+  padding: 12px 0;
+  margin: 10px;
+}
+.card__items img {
+  width: 113px;
+  margin: 10px;
+}
+/* .card__btn {
+  border: none;
+} */
+footer {
+  height: 8vh;
+  background-color: black;
+  color: white;
+  /* font-family: "Lato", sans-serif; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}

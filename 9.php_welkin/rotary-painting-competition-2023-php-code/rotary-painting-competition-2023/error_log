@@ -1,0 +1,1431 @@
+[08-Jan-2023 23:32:23 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'reg-form'@'localhost' (using password: YES) in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php:6
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php(6): mysqli_connect('localhost', 'reg-form', 'Temp@2022', 'reg-form')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php on line 6
+[08-Jan-2023 23:34:47 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'reg-form'@'localhost' (using password: YES) in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php:6
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php(6): mysqli_connect('localhost', 'reg-form', 'Temp@2022', 'rotarycl_reg-fo...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php on line 6
+[08-Jan-2023 23:35:43 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'reg-form'@'localhost' (using password: YES) in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php:6
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php(6): mysqli_connect('localhost', 'reg-form', 'Temp@2022', 'rotarycl_reg-fo...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php on line 6
+[08-Jan-2023 23:38:52 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'reg-form'@'localhost' (using password: YES) in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/testDb.php:8
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/testDb.php(8): mysqli->__construct('localhost', 'reg-form', 'Temp@2022', 'rotarycl_reg-fo...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/testDb.php on line 8
+[08-Jan-2023 23:40:50 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'reg-form'@'localhost' (using password: YES) in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/testDb.php:8
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/testDb.php(8): mysqli->__construct('localhost', 'reg-form', 'Temp@2022', 'rotarycl_reg-fo...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/testDb.php on line 8
+[08-Jan-2023 23:41:43 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'reg-form'@'localhost' (using password: YES) in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/testDb.php:8
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/testDb.php(8): mysqli->__construct('localhost', 'reg-form', 'Temp@2022', 'rotarycl_reg-fo...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/testDb.php on line 8
+[08-Jan-2023 23:41:45 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'reg-form'@'localhost' (using password: YES) in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/testDb.php:8
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/testDb.php(8): mysqli->__construct('localhost', 'reg-form', 'Temp@2022', 'rotarycl_reg-fo...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/testDb.php on line 8
+[08-Jan-2023 23:42:31 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'reg-form'@'localhost' (using password: YES) in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/testDb.php:8
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/testDb.php(8): mysqli->__construct('localhost', 'reg-form', 'Temp@2022', 'rotarycl_reg-fo...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/testDb.php on line 8
+[08-Jan-2023 23:43:27 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'reg-form'@'localhost' (using password: YES) in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/testDb.php:8
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/testDb.php(8): mysqli->__construct('localhost', 'reg-form', 'Temp@2022', 'rotarycl_reg-fo...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/testDb.php on line 8
+[08-Jan-2023 23:43:29 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'reg-form'@'localhost' (using password: YES) in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/testDb.php:8
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/testDb.php(8): mysqli->__construct('localhost', 'reg-form', 'Temp@2022', 'rotarycl_reg-fo...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/testDb.php on line 8
+[09-Jan-2023 00:08:19 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php:27) in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php on line 38
+[09-Jan-2023 00:29:49 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php:27) in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php on line 38
+[09-Jan-2023 00:47:54 America/Chicago] PHP Parse error:  syntax error, unexpected token "@" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php on line 45
+[09-Jan-2023 00:48:42 America/Chicago] PHP Warning:  Undefined variable $email in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php on line 51
+[09-Jan-2023 00:48:42 America/Chicago] PHP Warning:  Undefined variable $email in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php on line 55
+[09-Jan-2023 00:53:12 America/Chicago] PHP Warning:  Undefined variable $email in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php on line 36
+[09-Jan-2023 00:53:12 America/Chicago] PHP Warning:  Undefined variable $email in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php on line 40
+[09-Jan-2023 01:26:31 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php:53) in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php on line 64
+[09-Jan-2023 04:03:01 America/Chicago] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php:30
+Stack trace:
+#0 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php on line 30
+[09-Jan-2023 04:09:46 America/Chicago] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php:30
+Stack trace:
+#0 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php on line 30
+[09-Jan-2023 04:22:56 America/Chicago] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/contact2.php on line 34
+[09-Jan-2023 08:00:38 America/Chicago] PHP Parse error:  syntax error, unexpected variable "$conn" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 10
+[09-Jan-2023 08:01:53 America/Chicago] PHP Parse error:  syntax error, unexpected variable "$conn" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 10
+[09-Jan-2023 08:06:14 America/Chicago] PHP Parse error:  syntax error, unexpected variable "$conn" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 10
+[09-Jan-2023 08:06:48 America/Chicago] PHP Parse error:  syntax error, unexpected variable "$conn" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 10
+[09-Jan-2023 08:20:00 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 6
+[09-Jan-2023 08:20:00 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Group,RegistrationNo FROM 'tbl_contact' WHERE Group= ORDER BY 'DateCreated' DESC' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php:17
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php(17): mysqli->query('SELECT Id,Group...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 17
+[09-Jan-2023 08:20:05 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 6
+[09-Jan-2023 08:20:05 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Group,RegistrationNo FROM 'tbl_contact' WHERE Group= ORDER BY 'DateCreated' DESC' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php:17
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php(17): mysqli->query('SELECT Id,Group...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 17
+[09-Jan-2023 08:20:08 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 6
+[09-Jan-2023 08:20:08 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Group,RegistrationNo FROM 'tbl_contact' WHERE Group= ORDER BY 'DateCreated' DESC' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php:17
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php(17): mysqli->query('SELECT Id,Group...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 17
+[09-Jan-2023 08:22:12 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 6
+[09-Jan-2023 08:22:12 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''tbl_contact' WHERE `Group`= ORDER BY 'DateCreated' DESC' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php:17
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php(17): mysqli->query('SELECT `Id`,`Gr...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 17
+[09-Jan-2023 08:22:14 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 6
+[09-Jan-2023 08:22:14 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''tbl_contact' WHERE `Group`= ORDER BY 'DateCreated' DESC' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php:17
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php(17): mysqli->query('SELECT `Id`,`Gr...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 17
+[09-Jan-2023 08:22:16 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 6
+[09-Jan-2023 08:22:16 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''tbl_contact' WHERE `Group`= ORDER BY 'DateCreated' DESC' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php:17
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php(17): mysqli->query('SELECT `Id`,`Gr...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 17
+[09-Jan-2023 08:23:32 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 6
+[09-Jan-2023 08:23:32 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY `DateCreated` DESC' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php:17
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php(17): mysqli->query('SELECT `Id`,`Gr...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 17
+[09-Jan-2023 08:23:35 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 6
+[09-Jan-2023 08:23:35 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY `DateCreated` DESC' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php:17
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php(17): mysqli->query('SELECT `Id`,`Gr...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 17
+[09-Jan-2023 08:29:47 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 6
+[09-Jan-2023 08:29:47 America/Chicago] PHP Warning:  Undefined variable $row in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:29:47 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:29:47 America/Chicago] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php:26
+Stack trace:
+#0 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:29:55 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 6
+[09-Jan-2023 08:29:55 America/Chicago] PHP Warning:  Undefined variable $row in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:29:55 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:29:55 America/Chicago] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php:26
+Stack trace:
+#0 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:30:47 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 6
+[09-Jan-2023 08:30:47 America/Chicago] PHP Warning:  Undefined variable $row in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:30:47 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:30:47 America/Chicago] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php:26
+Stack trace:
+#0 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:31:31 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 6
+[09-Jan-2023 08:31:31 America/Chicago] PHP Warning:  Undefined variable $row in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:31:31 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:31:31 America/Chicago] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php:26
+Stack trace:
+#0 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:31:33 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 6
+[09-Jan-2023 08:31:33 America/Chicago] PHP Warning:  Undefined variable $row in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:31:33 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:31:33 America/Chicago] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php:26
+Stack trace:
+#0 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:31:36 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 6
+[09-Jan-2023 08:31:36 America/Chicago] PHP Warning:  Undefined variable $row in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:31:36 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:31:36 America/Chicago] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php:26
+Stack trace:
+#0 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:31:58 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 6
+[09-Jan-2023 08:31:58 America/Chicago] PHP Warning:  Undefined variable $row in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:31:58 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:31:58 America/Chicago] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php:26
+Stack trace:
+#0 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:32:55 America/Chicago] PHP Warning:  Undefined variable $row in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:32:55 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:32:55 America/Chicago] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php:26
+Stack trace:
+#0 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:33:41 America/Chicago] PHP Warning:  Undefined array key "id" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 22
+[09-Jan-2023 08:33:41 America/Chicago] PHP Warning:  Undefined array key "firstname" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 22
+[09-Jan-2023 08:33:41 America/Chicago] PHP Warning:  Undefined array key "lastname" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 22
+[09-Jan-2023 08:33:41 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:33:41 America/Chicago] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php:26
+Stack trace:
+#0 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:37:09 America/Chicago] PHP Warning:  Undefined array key "id" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 22
+[09-Jan-2023 08:37:09 America/Chicago] PHP Warning:  Undefined array key "firstname" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 22
+[09-Jan-2023 08:37:09 America/Chicago] PHP Warning:  Undefined array key "lastname" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 22
+[09-Jan-2023 08:37:09 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:37:09 America/Chicago] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php:26
+Stack trace:
+#0 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:37:13 America/Chicago] PHP Warning:  Undefined array key "id" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 22
+[09-Jan-2023 08:37:13 America/Chicago] PHP Warning:  Undefined array key "firstname" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 22
+[09-Jan-2023 08:37:13 America/Chicago] PHP Warning:  Undefined array key "lastname" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 22
+[09-Jan-2023 08:37:13 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 08:37:13 America/Chicago] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php:26
+Stack trace:
+#0 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 10:52:07 America/Chicago] PHP Warning:  Undefined array key "id" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 22
+[09-Jan-2023 10:52:07 America/Chicago] PHP Warning:  Undefined array key "firstname" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 22
+[09-Jan-2023 10:52:07 America/Chicago] PHP Warning:  Undefined array key "lastname" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 22
+[09-Jan-2023 10:52:07 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 10:52:07 America/Chicago] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php:26
+Stack trace:
+#0 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 10:54:15 America/Chicago] PHP Warning:  Undefined array key "id" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 22
+[09-Jan-2023 10:54:15 America/Chicago] PHP Warning:  Undefined array key "firstname" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 22
+[09-Jan-2023 10:54:15 America/Chicago] PHP Warning:  Undefined array key "lastname" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 22
+[09-Jan-2023 10:54:15 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[09-Jan-2023 10:55:00 America/Chicago] PHP Warning:  Undefined array key "id" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 22
+[09-Jan-2023 10:55:00 America/Chicago] PHP Warning:  Undefined array key "firstname" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 22
+[09-Jan-2023 10:55:00 America/Chicago] PHP Warning:  Undefined array key "lastname" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 22
+[09-Jan-2023 10:55:00 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/reg-form-review.php on line 26
+[10-Jan-2023 22:33:30 America/Chicago] PHP Warning:  Undefined variable $regid in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 35
+[10-Jan-2023 22:35:01 America/Chicago] PHP Warning:  Undefined variable $regid in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 35
+[10-Jan-2023 22:35:44 America/Chicago] PHP Warning:  Undefined variable $regid in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 35
+[10-Jan-2023 22:36:46 America/Chicago] PHP Warning:  Undefined variable $regid in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 35
+[10-Jan-2023 22:48:11 America/Chicago] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 12
+[10-Jan-2023 23:27:59 America/Chicago] PHP Warning:  Undefined array key "regId" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/registration-form-review.php on line 18
+[10-Jan-2023 23:29:19 America/Chicago] PHP Warning:  Undefined array key "regId" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/registration-form-review.php on line 18
+[15-Jan-2023 23:47:31 America/Chicago] PHP Fatal error:  Uncaught Error: Undefined constant "”xn4CyAGtvX0LrKQO”" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[16-Jan-2023 07:16:12 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's matric and hr.sec.school','11 years 7 months 0 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:243
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(243): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 243
+[16-Jan-2023 07:16:30 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's matric and hr.sec.school','11 years 7 months 0 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:243
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(243): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 243
+[16-Jan-2023 07:16:36 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's matric and hr.sec.school','11 years 7 months 0 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:243
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(243): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 243
+[16-Jan-2023 07:23:02 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's matric and hr.sec.school','11 years 7 months 0 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:243
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(243): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 243
+[16-Jan-2023 07:23:16 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's matric and hr.sec.school','11 years 7 months 0 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:243
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(243): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 243
+[16-Jan-2023 07:24:07 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's school, new delhi ','12 years 11 months 27 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:243
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(243): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 243
+[16-Jan-2023 07:24:36 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's school, new delhi ','12 years 11 months 27 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:243
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(243): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 243
+[16-Jan-2023 07:24:41 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Public School ','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:135
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(135): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 135
+[16-Jan-2023 07:35:54 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's public school ','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:135
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(135): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 135
+[16-Jan-2023 07:37:55 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's public school ','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:135
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(135): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 135
+[16-Jan-2023 07:38:51 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's public school ','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:135
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(135): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 135
+[16-Jan-2023 07:43:00 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Public School','11 years 7 months 29 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:243
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(243): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 243
+[16-Jan-2023 07:43:40 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's public school','7 years 1 months 28 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:135
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(135): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 135
+[16-Jan-2023 07:44:00 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's public school','7 years 1 months 28 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:135
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(135): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 135
+[16-Jan-2023 07:44:08 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's public school','7 years 1 months 28 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:135
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(135): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 135
+[16-Jan-2023 07:44:50 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's public school','7 years 1 months 28 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:135
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(135): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 135
+[16-Jan-2023 07:45:11 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's, Alaknanda ','10 years 3 months 25 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:243
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(243): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 243
+[16-Jan-2023 07:46:01 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's, Alaknanda ','10 years 3 months 25 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:243
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(243): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 243
+[16-Jan-2023 07:46:09 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL ','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:135
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(135): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 135
+[16-Jan-2023 07:46:48 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's, Alaknanda ','10 years 3 months 25 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:243
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(243): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 243
+[16-Jan-2023 07:47:21 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL ','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:135
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(135): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 135
+[16-Jan-2023 07:47:53 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL ','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:135
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(135): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 135
+[16-Jan-2023 07:48:11 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL ','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:135
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(135): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 135
+[16-Jan-2023 07:48:30 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL ','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:135
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(135): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 135
+[16-Jan-2023 07:49:20 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL ','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:135
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(135): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 135
+[16-Jan-2023 07:52:19 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S , ALAKNANDA','10 years 3 months 25 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:243
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(243): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 243
+[16-Jan-2023 07:52:53 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL ','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:135
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(135): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 135
+[16-Jan-2023 07:54:10 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL ','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:135
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(135): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 135
+[16-Jan-2023 07:57:56 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL ','6','6')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:135
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(135): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 135
+[16-Jan-2023 08:01:02 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL ','6','6')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:135
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(135): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 135
+[16-Jan-2023 08:28:37 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL ','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:135
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(135): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 135
+[16-Jan-2023 08:30:41 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Public School Nebsarai','7 years 0 months 10 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:135
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(135): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 135
+[16-Jan-2023 08:32:21 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Public School Nebsarai','7 years 0 months 10 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:135
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(135): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 135
+[16-Jan-2023 10:00:38 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL ','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:135
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(135): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 135
+[16-Jan-2023 14:43:33 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's School ','13 years 7 months 14 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:351
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(351): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 351
+[16-Jan-2023 14:43:57 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's School ','13 years 7 months 14 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:351
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(351): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 351
+[16-Jan-2023 20:54:29 America/Chicago] PHP Warning:  Undefined array key "regId" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 8
+[16-Jan-2023 21:08:04 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Senior Secondary school ','12 years 4 months 26 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:243
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(243): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 243
+[16-Jan-2023 21:11:01 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Senior Secondary school ','12','9 to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:243
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(243): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 243
+[17-Jan-2023 00:31:41 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Highschool Mazgaon, Mumbai - 10','15 years 5 months 14 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:351
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(351): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 351
+[17-Jan-2023 00:31:55 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Highschool Mazgaon, Mumbai - 10','15 years 5 months 14 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:351
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(351): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 351
+[17-Jan-2023 00:32:32 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Highschool Mazgaon, Mumbai - 10','15 years 5 months 14 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:351
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(351): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 351
+[17-Jan-2023 00:38:17 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Highschool Mazgaon, Mumbai - 10','15 years 5 months 14 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:351
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(351): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 351
+[17-Jan-2023 06:32:50 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Convent School ','10 years 10 months 2 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:243
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(243): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 243
+[17-Jan-2023 07:48:43 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'A0018' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:33
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(33): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 33
+[17-Jan-2023 07:49:39 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'A0018' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:33
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(33): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 33
+[17-Jan-2023 07:51:37 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'B2051' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:135
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(135): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 135
+[17-Jan-2023 08:01:50 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'A0004' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:33
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(33): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 33
+[17-Jan-2023 08:04:59 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'B2051' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:140
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(140): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 140
+[17-Jan-2023 08:05:37 America/Chicago] PHP Warning:  Undefined array key "regId" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 8
+[17-Jan-2023 08:05:51 America/Chicago] PHP Warning:  Undefined array key "regId" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 8
+[17-Jan-2023 08:10:45 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'B2052' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:140
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(140): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 140
+[17-Jan-2023 08:12:55 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'D6103' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:363
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(363): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 363
+[17-Jan-2023 08:31:12 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'B2055' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:140
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(140): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 140
+[17-Jan-2023 08:59:57 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'D6103' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:363
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(363): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 363
+[17-Jan-2023 09:05:55 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'D6103' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:364
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(364): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 364
+[17-Jan-2023 09:15:09 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'D6103' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:366
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(366): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 366
+[17-Jan-2023 09:18:01 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'D6103' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:366
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(366): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 366
+[17-Jan-2023 09:25:45 America/Chicago] PHP Warning:  require(PHPMailer-master/src/Exception.php): Failed to open stream: No such file or directory in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 399
+[17-Jan-2023 09:25:45 America/Chicago] PHP Warning:  require(PHPMailer-master/src/Exception.php): Failed to open stream: No such file or directory in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 399
+[17-Jan-2023 09:25:45 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required 'PHPMailer-master/src/Exception.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:399
+Stack trace:
+#0 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 399
+[17-Jan-2023 09:40:05 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'D6107' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:366
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(366): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 366
+[17-Jan-2023 09:40:47 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'D6103' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:306
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(306): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 306
+[17-Jan-2023 09:40:54 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'D6103' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:306
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(306): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 306
+[17-Jan-2023 09:42:01 America/Chicago] PHP Warning:  require(PHPMailer-master/src/Exception.php): Failed to open stream: No such file or directory in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 51
+[17-Jan-2023 09:42:01 America/Chicago] PHP Warning:  require(PHPMailer-master/src/Exception.php): Failed to open stream: No such file or directory in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 51
+[17-Jan-2023 09:42:01 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required 'PHPMailer-master/src/Exception.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:51
+Stack trace:
+#0 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 51
+[17-Jan-2023 09:42:01 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'A0026' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:27
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(27): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 27
+[17-Jan-2023 09:44:29 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'A0026' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:27
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(27): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 27
+[17-Jan-2023 09:48:57 America/Chicago] PHP Warning:  require(PHPMailer-master/src/Exception.php): Failed to open stream: No such file or directory in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 141
+[17-Jan-2023 09:48:57 America/Chicago] PHP Warning:  require(PHPMailer-master/src/Exception.php): Failed to open stream: No such file or directory in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 141
+[17-Jan-2023 09:48:57 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required 'PHPMailer-master/src/Exception.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:141
+Stack trace:
+#0 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 141
+[17-Jan-2023 09:50:38 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'B2057' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:121
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(121): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 121
+[17-Jan-2023 09:50:44 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'B2057' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:121
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(121): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 121
+[17-Jan-2023 09:55:51 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'B2057' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:121
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(121): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 121
+[17-Jan-2023 10:02:54 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'B2057' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:123
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(123): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 123
+[17-Jan-2023 10:04:01 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'B2051' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:123
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(123): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 123
+[17-Jan-2023 10:07:29 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'A0027' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:27
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(27): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 27
+[17-Jan-2023 10:14:56 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL NEW DELHI ','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:129
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(129): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 129
+[17-Jan-2023 10:23:40 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'B2064' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:129
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(129): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 129
+[17-Jan-2023 10:26:13 America/Chicago] PHP Warning:  Undefined array key "regId" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 9
+[17-Jan-2023 11:00:46 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'B2068' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:129
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(129): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 129
+[17-Jan-2023 11:01:47 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'B2068' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:129
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(129): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 129
+[17-Jan-2023 11:31:09 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'D6118' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:325
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(325): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 325
+[17-Jan-2023 11:31:20 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'D6118' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:325
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(325): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 325
+[17-Jan-2023 11:31:22 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'D6118' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:325
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(325): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 325
+[17-Jan-2023 12:15:18 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't -10','12 years 1 months 5 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:224
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(224): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 224
+[17-Jan-2023 12:15:41 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't -10','12 years 1 months 5 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:224
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(224): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 224
+[17-Jan-2023 13:14:22 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'A0032' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:36
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(36): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 36
+[17-Jan-2023 13:14:25 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'A0032' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:36
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(36): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 36
+[17-Jan-2023 13:14:32 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'A0032' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:36
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(36): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 36
+[17-Jan-2023 13:19:06 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'rotarycl_regform'@'localhost' (using password: YES) in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/himanshu.php:8
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/himanshu.php(8): mysqli_connect('localhost', 'rotarycl_regfor...', 'Temp@2022', 'rotarycl_reg-fo...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/himanshu.php on line 8
+[17-Jan-2023 13:19:59 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'rotarycl_regform'@'localhost' (using password: YES) in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/himanshu.php:8
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/himanshu.php(8): mysqli_connect('localhost', 'rotarycl_regfor...', 'Temp@2022', 'rotarycl_reg-fo...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/himanshu.php on line 8
+[17-Jan-2023 13:22:58 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'A0106' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/himanshu.php:17
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/himanshu.php(17): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/himanshu.php on line 17
+[17-Jan-2023 13:23:04 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'A0106' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/himanshu.php:17
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/himanshu.php(17): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/himanshu.php on line 17
+[17-Jan-2023 13:23:53 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'A0106' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/himanshu.php:17
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/himanshu.php(17): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/himanshu.php on line 17
+[17-Jan-2023 13:38:50 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'A0032' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:27
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(27): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 27
+[17-Jan-2023 13:41:26 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'A0106' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/himanshu.php:17
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/himanshu.php(17): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/himanshu.php on line 17
+[17-Jan-2023 14:34:42 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'D6119' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:325
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(325): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 325
+[17-Jan-2023 18:58:51 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'A0004' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:27
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(27): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 27
+[17-Jan-2023 18:59:05 America/Chicago] PHP Warning:  Undefined array key "regId" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 9
+[17-Jan-2023 20:50:15 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL NEW DELHI ','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:129
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(129): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 129
+[17-Jan-2023 20:50:41 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL NEW DELHI ','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:129
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(129): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 129
+[17-Jan-2023 20:51:04 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL NEW DELHI ','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:129
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(129): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 129
+[17-Jan-2023 20:51:33 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL NEW DELHI ','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:129
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(129): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 129
+[17-Jan-2023 20:51:39 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL NEW DELHI ','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:129
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(129): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 129
+[17-Jan-2023 22:18:10 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'D6060' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:325
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(325): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 325
+[18-Jan-2023 02:40:36 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'D6138' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:325
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(325): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 325
+[18-Jan-2023 02:40:45 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'D6138' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:325
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(325): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 325
+[18-Jan-2023 02:42:58 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'D6139' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:325
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(325): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 325
+[18-Jan-2023 03:10:40 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'C4111' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:224
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(224): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 224
+[18-Jan-2023 03:10:51 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'C4111' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:224
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(224): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 224
+[18-Jan-2023 03:11:34 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'C4111' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:224
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(224): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 224
+[18-Jan-2023 03:15:23 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'D6139' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:325
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(325): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 325
+[18-Jan-2023 03:46:13 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'C4117' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:224
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(224): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 224
+[18-Jan-2023 05:19:38 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'C4078' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:224
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(224): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 224
+[18-Jan-2023 05:25:28 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'D6148' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:325
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(325): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 325
+[18-Jan-2023 05:25:50 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'D6148' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:325
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(325): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 325
+[18-Jan-2023 05:26:01 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'D6148' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:325
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(325): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 325
+[18-Jan-2023 05:26:03 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'D6148' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:325
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(325): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 325
+[18-Jan-2023 05:26:07 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'D6148' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:325
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(325): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 325
+[18-Jan-2023 06:08:12 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL NEW DELHI','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:129
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(129): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 129
+[18-Jan-2023 06:18:11 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'A0046' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:27
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(27): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 27
+[18-Jan-2023 06:27:23 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL NEW DELHI','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:129
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(129): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 129
+[18-Jan-2023 06:30:06 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL NEW DELHI','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:129
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(129): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 129
+[18-Jan-2023 06:31:13 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL NEW DELHI','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:129
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(129): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 129
+[18-Jan-2023 06:36:12 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL NEW DELHI','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:164
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(164): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 164
+[18-Jan-2023 06:37:08 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'A0047' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:31
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(31): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 31
+[18-Jan-2023 06:43:06 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL NEW DELHI','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:164
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(164): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 164
+[18-Jan-2023 06:48:40 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'D6155' for key 'RegistrationNo' in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:418
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(418): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 418
+[18-Jan-2023 06:51:40 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL NEW DELHI','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:164
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(164): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 164
+[18-Jan-2023 07:03:53 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL NEW DELHI','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:164
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(164): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 164
+[18-Jan-2023 07:05:52 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL NEW DELHI','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:164
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(164): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 164
+[18-Jan-2023 07:24:21 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL NEW DELHI','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:164
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(164): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 164
+[18-Jan-2023 22:03:49 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL NEW DELHI','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:164
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(164): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 164
+[18-Jan-2023 22:04:38 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S PUBLIC SCHOOL NEW DELHI','6 years 1 months 16 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:164
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(164): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 164
+[24-Jan-2023 06:57:36 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's. Safdarjung Enclave ','8 years 5 months 4 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 06:57:57 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's. Safdarjung Enclave ','8 years 5 months 4 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 06:58:12 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's. Safdarjung Enclave ','8 years 5 months 4 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 07:26:20 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's. Safdarjung Enclave ','8 years 5 months 4 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 07:32:07 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'secondry school ','14  years 6 months 22 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 07:32:29 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'secondry school ','14  years 6 months 22 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 07:33:11 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's school ','13 years 7 months 0 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 07:48:49 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'floor,
+GREEN FIELDS COLONY, road no 54, gate no 4, faridabad haryana ', 'Araval' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 07:52:03 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'floor,
+GREEN FIELDS COLONY, road no 54, gate no 4, faridabad haryana ', 'Araval' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 07:53:15 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'floor,
+GREEN FIELDS COLONY, road no 54, gate no 4, faridabad haryana ', 'Araval' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 07:53:25 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'floor,
+GREEN FIELDS COLONY, road no 54, gate no 4, faridabad haryana ', 'Araval' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 10:58:02 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 10:58:02 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), '')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 11:21:22 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's High School, Dhenkanal ','14 years 10 months 1 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 11:21:34 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's High School, Dhenkanal ','14 years 10 months 1 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 11:21:37 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's High School, Dhenkanal ','14 years 10 months 1 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 11:47:24 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's International School ','13 years 7 months 7 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 11:47:50 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's International School ','13 years 7 months 7 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 11:47:53 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's International School ','13 years 7 months 7 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 11:49:37 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's International School ','13 years 7 months 7 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 11:50:00 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's International School ','13 years 7 months 7 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 11:50:26 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's International School ','13 years 7 months 7 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 11:52:52 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's International School ','13 years 7 months 7 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 11:54:36 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's International School ','13 years 7 months 7 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 11:54:50 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's International School ','13 years 7 months 7 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 11:55:06 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's International School ','13 years 7 months 7 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 11:55:37 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's International School ','13 years 7 months 7 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[24-Jan-2023 21:40:54 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/registration-form-review.php on line 6
+[25-Jan-2023 00:27:51 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's School','11 years 3 months 11 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[25-Jan-2023 00:28:24 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's School','11 years 3 months 11 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[25-Jan-2023 07:25:48 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's International School ','13 years 7 months 7 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[25-Jan-2023 07:26:12 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's International School ','13 years 7 months 7 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[25-Jan-2023 07:41:36 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/registration-form-review.php on line 6
+[25-Jan-2023 07:41:43 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's International School ','13 years 7 months 7 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[25-Jan-2023 07:41:51 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's International School ','13 years 7 months 7 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[25-Jan-2023 07:58:39 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's International School ','13 years 7 months 7 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[25-Jan-2023 09:05:37 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Public School ','5 years 6 months 21 days','5+')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[25-Jan-2023 09:06:37 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Public School ','5 years 6 months 21 days','5+')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[25-Jan-2023 09:58:05 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Public School ','5 years 6 months 21 days','3+ to 6')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[25-Jan-2023 10:03:34 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Public School ','5 years 6 months 21 days','3+ to 6')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[25-Jan-2023 10:04:00 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Public School ','5 years 6 months 21 days','3+ to 6')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[25-Jan-2023 10:11:06 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Public School ','5 years 6 months 21 days','5+')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[26-Jan-2023 02:04:19 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's International School','13 years 7 months 7 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[26-Jan-2023 02:04:35 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's International School','13 years 7 months 7 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[26-Jan-2023 02:04:56 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's International School','13 years 7 months 7 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[26-Jan-2023 02:06:02 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's International School','13 years 7 months 7 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[26-Jan-2023 03:29:01 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/registration-form-review.php on line 6
+[26-Jan-2023 03:29:06 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's International School ','13 years 7 months 7 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[26-Jan-2023 06:04:05 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's school ','8 years 6 months 15 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[26-Jan-2023 06:04:14 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's school ','8 years 6 months 15 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[26-Jan-2023 06:04:31 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's school ','8 years 6 months 15 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[26-Jan-2023 06:04:49 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's school ','8 years 6 months 15 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[26-Jan-2023 06:05:00 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's school ','8 years 6 months 15 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[26-Jan-2023 06:05:09 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's school ','8 years 6 months 15 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[26-Jan-2023 06:05:20 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's school ','8 years 6 months 15 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[26-Jan-2023 06:05:28 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's school ','8 years 6 months 15 days','6+ to 9')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[26-Jan-2023 09:42:31 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[26-Jan-2023 09:42:31 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), '')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[26-Jan-2023 09:43:57 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[26-Jan-2023 09:43:57 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), '')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[26-Jan-2023 09:55:31 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[26-Jan-2023 09:55:31 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), '')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[26-Jan-2023 22:08:23 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Enclave, S.P. Marg, Chanakyapuri', 'Sanskriti School, Chanakyapuri','9 years 7 m' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[26-Jan-2023 22:12:01 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Enclave, S.P. Marg, Chanakyapuri', 'Sanskriti School, Chanakyapuri','6 years 1 m' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[27-Jan-2023 02:51:34 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's ','5 years 2 months 3 days','3+ to 6')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[27-Jan-2023 02:52:58 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's ','13 years 3 months 30 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[27-Jan-2023 06:29:41 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Enclave, SP Marg, Chankyapuri', 'Sanskriti School, Chankyapuri','9 years 7 month' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[27-Jan-2023 06:40:24 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Enclave, SP Marg, Chankyapuri', 'Sanskriti School, Chankyapuri','6 years 1 month' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[27-Jan-2023 06:41:07 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Enclave, SP Marg, Chankyapuri', 'Sanskriti School, Chankyapuri','6 years 1 month' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[27-Jan-2023 06:42:27 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Enclave, SP Marg, Chankyapuri', 'School: Sanskriti School, Chankyapuri','6 years' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[27-Jan-2023 08:49:43 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/registration-form-review.php on line 6
+[27-Jan-2023 08:49:44 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/registration-form-review.php on line 6
+[27-Jan-2023 08:49:44 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/registration-form-review.php on line 6
+[27-Jan-2023 09:06:22 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's school ','14 years 1 months 19 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[27-Jan-2023 09:30:37 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't -10','12 years 1 months 5 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[27-Jan-2023 09:31:29 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't -10','12 years 1 months 5 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[27-Jan-2023 09:31:39 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't -10','12 years 1 months 5 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[27-Jan-2023 09:31:44 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't -10','12 years 1 months 5 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[27-Jan-2023 09:43:04 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't -10','12 years 1 months 5 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[27-Jan-2023 09:43:23 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't -10','12 years 1 months 5 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[27-Jan-2023 09:44:13 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't -10','12 years 1 months 5 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[27-Jan-2023 09:46:45 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't -10','12 years 1 months 5 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[27-Jan-2023 09:46:51 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't -10','12 years 1 months 5 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[27-Jan-2023 22:27:34 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/registration-form-review.php on line 6
+[27-Jan-2023 22:27:40 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's school ','14 years 1 months 19 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 02:19:40 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/registration-form-review.php on line 6
+[28-Jan-2023 04:09:04 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's public school','11 years 7 months 30 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 04:09:15 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's public school','11 years 7 months 30 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 04:10:18 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's public school','11 years 7 months 30 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 04:10:40 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's public school','11 years 7 months 30 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 04:10:47 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's public school','11 years 7 months 30 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 04:10:54 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's public school','11 years 7 months 30 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 04:12:24 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's public school','11 years 7 months 30 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 04:14:03 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's public school','11 years 7 months 30 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 05:18:40 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/registration-form-review.php on line 6
+[28-Jan-2023 05:19:22 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/registration-form-review.php on line 6
+[28-Jan-2023 05:19:34 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/registration-form-review.php on line 6
+[28-Jan-2023 05:21:27 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/registration-form-review.php on line 6
+[28-Jan-2023 07:01:42 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd',Indira Enclave,Near st.luke convent school,Faridabad', 'Jiva Public School','' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 07:02:48 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd',Indira Enclave,Near st.luke convent school,Faridabad', 'Jiva Public School','' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 07:04:21 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd',Indira Enclave,Near st.luke convent school,Faridabad', 'Jiva Public School','' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 07:07:20 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd',Indira Enclave,NEAR St.Luke convent school, Faridabad', 'Jiva public school',' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 07:11:14 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/registration-form-review.php on line 6
+[28-Jan-2023 07:11:19 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's School','11 years 7 months 16 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 07:12:43 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's School','16 years 1 months 1 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 07:17:17 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 07:17:17 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), '')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 07:18:18 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/registration-form-review.php on line 6
+[28-Jan-2023 07:20:35 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 07:20:35 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), '')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 07:21:32 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 07:21:32 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), '')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 07:21:37 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 07:21:37 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), '')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 07:23:30 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 07:23:30 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), '')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 07:24:27 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/registration-form-review.php on line 6
+[28-Jan-2023 07:27:50 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 07:27:50 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), '')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 07:29:17 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/registration-form-review.php on line 6
+[28-Jan-2023 07:30:21 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 07:30:21 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), '')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 09:01:21 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/registration-form-review.php on line 6
+[28-Jan-2023 09:01:21 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/registration-form-review.php on line 6
+[28-Jan-2023 09:01:21 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/registration-form-review.php on line 6
+[28-Jan-2023 09:11:07 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's School','11 years 7 months 16 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 09:11:14 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's School','11 years 7 months 16 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 09:11:59 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's School','16 years 1 months 1 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 09:39:25 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's School','11 years 7 months 16 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 09:45:00 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's School','16 years 1 months 1 days','13+ to 17')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 09:57:45 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S SCHOOL','11 years 7 months 16 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 09:58:18 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S SCHOOL','11 years 7 months 16 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 09:58:32 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S SCHOOL','11 years 7 months 16 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 09:59:56 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S SCHOOL','11 years 7 months 16 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 10:01:53 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S SCHOOL','11 years 7 months 16 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 10:16:34 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's School','11 years 7 months 16 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 10:16:37 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's School','11 years 7 months 16 days','9+ to 13')' at line 1 in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php:39
+Stack trace:
+#0 /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php(39): mysqli_query(Object(mysqli), 'INSERT INTO `tb...')
+#1 {main}
+  thrown in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/thankyou.php on line 39
+[28-Jan-2023 12:51:22 America/Chicago] PHP Warning:  Undefined array key "textAgeGroup" in /home2/rotaryclubdsw/public_html/rotary-painting-competition-2023/registration-form-review.php on line 6

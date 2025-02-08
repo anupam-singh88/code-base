@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav id="nav">
+            <div>
+                <h3>Movie App</h3>
+            </div>
+            <ul class="navUl" id="navUl">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact Us</li>
+            </ul>
+            <form id="form">
+                <input type="text" name="searchBox" id="searchBox" placeholder="Search Movies..">
+            </form>
+            <div class="burger" id="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="container">
+        </section>
+        <div class="btnContainer">
+            <button class="btn" id="prevbtn" onclick="prevFn()">Previous </button>
+            <button class="btn" id="nextBtn" onclick="nextFn()">Next </button>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>

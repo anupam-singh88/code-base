@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        /* flex-grow is set to 1, which allows the items to grow and take up any remaining space in the container. flex-shrink is set to 0, which means the items can’t shrink smaller than their base size. flex-basis is set to 140px and 120px, which specifies the initial main size of the items before they grow or shrink. */
+
+        .name {
+            flex: 1 0 140px;
+        }
+
+        .email {
+            flex: 1 0 120px;
+        }
+
+        button {
+            flex: 1 0 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <input type="text" class="name" name="" id="">
+        <input type="text" class="email" name="" id="">
+        <button>Submit</button>
+    </div>
+
+</body>
+
+</html>

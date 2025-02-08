@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head') %>
+
+    <body>
+        <%- include('./partials/nav') %>
+            <!-- <h1>Edit</h1> -->
+            <!-- <form class="addBlog" action="/update/<%= locals.blogId  %>" method="post"> -->
+            <form class="addBlog" action="/update/<%= locals.blogId  %>" method="post" enctype="multipart/form-data">
+                <h3>Welcome, <%= locals.name %>
+                </h3> <br>
+                <fieldset style="padding: 15px;">
+                    <legend>Add Blogs:</legend>
+                    <label for="file">Cover Image : </label>
+                    <input type="file" id="file" name="coverimage" class="inp" required><br><br>
+
+                    <label for="title">Enter Title :</label>
+                    <input type="text" id="title" name="title" class="inp" required
+                        value="<%= locals.title  %>"><br><br>
+
+                    <label for="desc">Description:</label>
+                    <input type="text" id="desc" name="desc" class="inp" required value="<%= locals.desc  %>" />
+
+
+                    <button type="submit" class="login" style="margin: 0px !important;">Update Blog</button>
+                </fieldset>
+            </form>
+
+    </body>
+    <%- include('./partials/scripts') %>
+
+</html>

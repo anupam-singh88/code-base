@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head') %>
+
+    <body>
+        <%- include('./partials/nav') %>
+
+            <div class="loginContainer">
+                <!-- <div> -->
+                <form class="box" action="/reset" method="post">
+                    <h2 style="
+                    color: white;
+                    text-align: center;
+                    margin: 8px 0;
+                    letter-spacing: 2px;
+                ">Reset Password </h2>
+                    <input type="email" name="email" id="useremail" class="inp" placeholder="'Enter Your Email"
+                        value="<%= locals.email  %>" required>
+                    <p style="color: red;font-weight: 600;letter-spacing: 1px;">
+                        <%= locals.message%>
+                    </p>
+                    <input type="password" name="password" id="userpassword" class="inp"
+                        placeholder="Enter New Password Here" required>
+                    <input type="password" name="cpassword" id="userpassword" class="inp" placeholder="Confirm Password"
+                        required>
+                    <p style="color: red;font-weight: 600;letter-spacing: 1px;">
+                        <%= locals.passmsg%>
+                    </p>
+                    <button type="submit" class="inp loginBtn">Reset</button>
+
+                </form>
+                <!-- </div> -->
+            </div>
+    </body>
+    <%- include('./partials/scripts') %>
+
+</html>

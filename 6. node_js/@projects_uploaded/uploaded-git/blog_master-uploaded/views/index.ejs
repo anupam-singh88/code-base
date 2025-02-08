@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head') %>
+
+    <body>
+        <%- include('./partials/nav') %>
+
+
+
+            <p style="text-align: center; color: red; font-weight: 600;margin-top: 10px;">
+                <%= locals.msg %>
+            </p>
+            <% if (locals.blogs.length>0){ %>
+
+                <div class="parent">
+                    <% blogs.forEach(blog=> { %>
+                        <div class="blogCard">
+                            <img src="<%= blog.coverImageURL %>" alt="" width="500px">
+                            <h3>
+                                <%= blog.title %>
+                            </h3>
+                            <p>
+                                <%= blog.body.slice(0,50) %>...
+                            </p>
+
+
+                            <a href="/blog/<%= blog._id %>"><button class="blogBtn">Read More</button></a>
+                        </div>
+                        <% }) %>
+                </div>
+                <% }else{ %>
+                    <h2 style="text-align: center; margin-top: 23px;">Add Some Blogs</h2>
+                    <% } %>
+
+    </body>
+    <%- include('./partials/scripts') %>
+
+</html>

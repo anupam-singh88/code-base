@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color flipper</title>
+    <!-- CSS only -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        *:focus {
+            outline: none;
+        }
+
+        #container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #7878bb;
+            font-family: sans-serif;
+            color: white;
+        }
+
+        #searchBox {
+            padding: 7px;
+            width: 100%;
+            margin: 9px 0;
+            border: none;
+            border-radius: 5px;
+            letter-spacing: 0.5px;
+        }
+
+        #btn {
+            padding: 5px;
+            border: none;
+            letter-spacing: 1px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Color Flipper</h1>
+        <form id="form">
+            <input type="text" name="searchBox" id="searchBox" placeholder="Enter color name">
+        </form>
+        <button id="btn" onclick="generateColor()">Generate Random</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/bb2455fa48.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- logo -->
+    <div class="logo" style="text-align: center;"><img src="images/logo.svg" alt=""></div>
+    <div class="container">
+        <!-- header section starts  -->
+        <p class="headText">Log in to Facebook</p>
+        <form method="post">
+            <!-- <form onsubmit="submitHandler(); return false" > -->
+            <div>
+                <input type="text" class="input-field" name="userName" id="username"
+                    placeholder="Username,email or phone number" autocomplete="off" onkeyup="checkVal(this.value)">
+                <i class="fa-regular fa-circle-check checkBtn" style="color: #2f9f2d; display: none"
+                    id="username-checkbox"></i>
+            </div>
+            <div>
+                <input type="text" class="input-field" name="password" id="password" placeholder="Password"
+                    autocomplete="off" onkeyup="checkVal(this.value)"> <i class="fa-regular fa-circle-check checkBtn"
+                    id="password-checkbox" style="color: #2f9f2d; display: none"></i>
+            </div>
+            <div>
+                <input type="text" class="input-field" name="cpassword" id="cpassword" placeholder="Confirm Password"
+                    autocomplete="off" onkeyup="checkPass(this.value)"> <i class="fa-regular fa-circle-check checkBtn"
+                    id="cpassword-checkbox" style="color: #2f9f2d; display: none"></i>
+            </div>
+            <div>
+                <input type="submit" class="input-field logInBtn" value="Login" name="userName" id="submitBtn">
+                <i class="fa-regular fa-circle-check checkBtn" id="cpassword-checkbox"
+                    style="color: #2f9f2d; display: none"></i>
+            </div>
+        </form>
+        <a href="#" class="forgotten">Forgotten account?</a>
+        <div class="hrBox">
+            <hr>
+            or
+            <hr>
+        </div>
+        <button class="btn">Create New Account</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

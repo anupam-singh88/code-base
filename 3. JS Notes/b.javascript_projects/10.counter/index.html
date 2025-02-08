@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color flipper</title>
+    <!-- CSS only -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        *:focus {
+            outline: none;
+        }
+
+        #container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #7878bb;
+            font-family: sans-serif;
+            color: white;
+        }
+
+        .number {
+            font-size: 60px;
+        }
+
+        .btn {
+            padding: 5px;
+            border: none;
+            letter-spacing: 1px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 0 5px;
+        }
+
+        .btnContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Counter</h1>
+        <h2 class="number">0</h2>
+        <div class="btnContainer">
+            <button class="btn " id="decrease"> Decrease</button>
+            <button class="btn " id="reset"> Reset</button>
+            <button class="btn " id="increase"> Increase</button>
+        </div>
+    </div>
+    <script>
+        let decrease = document.getElementById('decrease')
+        let reset = document.getElementById('reset')
+        let increase = document.getElementById('increase')
+        let number = document.querySelector('.number');
+        let counter = 0;
+
+        decrease.addEventListener('click', () => {
+            counter--
+            number.innerHTML = counter
+            number.style.color = 'red'
+
+        })
+        reset.addEventListener('click', () => {
+            counter = 0
+            number.innerHTML = counter
+            number.style.color = 'white'
+
+        })
+        increase.addEventListener('click', () => {
+            counter++
+            number.innerHTML = counter;
+            number.style.color = 'green'
+
+        })
+    </script>
+</body>
+
+</html>

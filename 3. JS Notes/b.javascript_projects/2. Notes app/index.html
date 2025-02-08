@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1 id="heading">Notes App</h1>
+    <br>
+    <div>
+        <form onsubmit="addNote();return false;">
+            <input type="text" name="" id="note" placeholder="Enter Note here">
+            <input type="submit" value="Add Note" id="addBtn">
+            <input type="button" onclick="updateFn()" value="Update Note" id="updateBtn" style="display: none;">
+        </form>
+    </div>
+    <br>
+    <h3 id="notess">Notes</h3>
+    <!-- List of notes will be displayed here -->
+    <ol id="noteUl" type="1">
+        <!-- <li>My Note <button>Edit</button> <button>Delete</button></li> -->
+    </ol>
+    <!-- <div id="noteUl"></div> -->
+    <script src="app2.js"></script>
+</body>
+
+</html>

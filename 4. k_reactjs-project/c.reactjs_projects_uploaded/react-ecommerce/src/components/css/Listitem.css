@@ -1,0 +1,38 @@
+.listItem {
+    display: flex;
+    align-items: center;
+}
+
+.listPrice {
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+.listview {
+    border: 1px solid #d6caca;
+    padding: 13px;
+    width: 100%;
+    /* margin-left: 55px; */
+    margin-bottom: 25px;
+}
+
+.secBox {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.listdesc {
+    font-size: 15px;
+}
+
+.listBTn {
+    padding: 11px;
+    background-color: #0a1435;
+    color: white;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 3px;
+    margin: 18px 0;
+    cursor: pointer;
+}

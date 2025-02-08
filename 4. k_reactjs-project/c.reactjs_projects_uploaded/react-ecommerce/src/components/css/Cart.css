@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+
+
+/* .cartContainer {
+    padding: 11px;
+    background-color: white;
+    border-radius: 6px;
+    width: 75vw;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.cartDetails {
+    margin: 20px 0;
+}
+
+.carta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    justify-content: center;
+}
+
+.productItem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+.productImg {
+    width: 105px;
+}
+
+.productBtns {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btns {
+    width: 30px;
+    padding: 0px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.quantity {
+    border: 1px solid #c5b9b9;
+    width: 30px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.btn {
+    padding: 8px;
+    border: 2px solid white;
+    background-color: red;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btnbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.a {
+
+    background-color: green;
+
+}
+
+.cartcol {
+
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    /* margin: 4px 0; */
+}
+
+@media screen and (max-width: 550px) {
+
+    .productImg {
+        width: 60px;
+    }
+
+    /* .cartContainer {
+        width: 85vw;
+    } */
+
+    .productItem {
+        font-size: 10px;
+    }
+
+    .mainContainer {
+        width: 87% !important;
+    }
+}
+
+/* 
+.cartId {
+    display: flex;
+} */
+
+/* .addCartTotalItem {
+    font-size: 12px;
+    position: relative;
+    top: -8px;
+    left: 1px;
+} */
+
+/* #sorting {
+    padding: 2px;
+    border: 1px solid #f2d0d0;
+    border-radius: 4px;
+    margin: 5px 0;
+} */

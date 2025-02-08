@@ -1,0 +1,78 @@
+@media screen and (max-width:700px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav-search {
+        width: 60vw;
+        /* display: flex; */
+        /* visibility: hidden; */
+        display: none;
+    }
+
+    .nav-logo {
+        height: 70px;
+        width: 140px;
+    }
+
+    .nav-address,
+    .nav-signin,
+    .nav-cart,
+    .nav-return {
+        display: none;
+    }
+
+
+    .panel {
+        display: none;
+    }
+
+    .hero-section {
+        height: 150px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .hero-msg {
+        width: 50%;
+        height: 35px;
+        font-size: 9px;
+    }
+
+    .shop-section {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .box {
+        width: 100%;
+        height: auto;
+        font-size: 10px;
+    }
+
+    .box-img {
+        height: 170px;
+    }
+
+    .foot-panel2 {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .shop-section {
+        /* display: grid; */
+        grid-template-columns: auto;
+    }
+
+}

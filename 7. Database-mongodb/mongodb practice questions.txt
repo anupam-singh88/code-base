@@ -1,0 +1,352 @@
+how many users are active
+[
+  {
+    $match: {
+			isActive : true
+    }
+  },
+  {
+    $count: 'totalActiveUsers'
+  }
+]
+
+what is the average age of all users
+[
+  {
+    $group: {
+      _id: null,
+      averageAge: {
+        $avg :"$age"
+      }
+    }
+  }
+  
+]
+
+list the top 5 most common favourite fruits among user
+[
+  {
+    $group: {
+      _id: "$favoriteFruit",
+      count:{
+        $sum : 1
+      }
+    }
+  },
+  {
+    $sort: {
+      count:-1
+    }
+  },
+  {
+    $limit: 4
+  }
+]
+
+find the total number of males and females
+[
+  {
+    $group: {
+      _id : "$gender",
+      genderCount : {
+        $sum : 1
+      }
+
+    }
+  }
+]
+
+which country has the highest number of users
+[
+  {
+    $group: {
+      _id: "$company.location.country",
+      userCount:{
+        $sum :1
+      }
+    }
+  },
+  {
+    $sort: {
+  userCount: -1
+    }
+  },
+  {
+    $limit: 3
+  }
+]
+
+list all the unique eye color
+[
+  {
+    $group: {
+      _id: "$eyeColor",     
+    }
+  }
+]
+
+what is the average no of tags per user
+[
+  {
+    $unwind: {
+      path: "$tags"
+    }
+  },
+  {
+    $group: {
+      _id: "$_id",
+      numberOfTags : {
+        $sum : 1
+      }
+    }
+  },
+  {
+    $group: {
+      _id:  null,
+    averageNumberOfTags : {
+      $avg :"$numberOfTags"
+    }
+    }
+  }
+]
+
+or 
+
+[
+  {
+    $addFields: {
+      numberOfTags: {
+        $size: {
+          $ifNull: ["$tags", []],
+        },
+      },
+    },
+  },
+  {
+    $group: {
+      _id: null,
+      averageNumberOfTags: {
+        $avg: "$numberOfTags",
+      },
+    },
+  },
+]
+
+how many users have 'enim' as one of their tags
+[
+  {
+    $match: {
+      tags : "enim"
+    }
+  },
+  {
+    $count: 'userWithEnimTag'
+  }
+]
+
+what are the name and age of user who are inactive and have velit as a tag
+
+[
+  {
+    $match: {
+      isActive: false,
+      tags: "velit",
+    },
+  },
+  {
+    $project: {
+      name: 1,
+      age: 1,
+    },
+  },
+]
+
+
+how many users have phn number starting with '+1(940)'?
+[
+  {
+    $match: {
+      "company.phone": /^\+1\(940\)/
+    },
+  },
+  {
+    $count: 'number'
+  }
+]
+
+who has registered most recently?
+[
+  {
+    $sort: {
+      registered: -1
+    }
+  },
+  {
+    $limit: 4
+  },
+  {
+    $project: {
+      name:1,
+      registered : 1,
+      favouriteFruit :1
+    }
+  }
+]
+
+categorize user by their favourite food
+[
+  {
+    $group: {
+      _id: "$favoriteFruit",
+      users :{
+        $push : "$name"
+      }
+    }
+  }
+]
+
+
+how many user have 'ad' as the second tag in their list of tags?
+[
+  {
+    $match: {
+      "tags.1":"ad"
+    }
+  }
+]
+
+how many document have second tag
+
+[
+  {
+    $match: {
+      "tags.1":"ad"
+    }
+  },
+  {
+    $count: 'secondTag'
+  }
+]
+
+find all the users who have both 'enim' and 'id' as their tags?
+[
+  {
+    $match: {
+      tags: {
+        $all :["enim","id"]
+      }
+    }
+  }
+]
+
+
+list all the companies located in the USA with their corresponding user account
+[
+  {
+    $match: {
+     "company.location.country":"USA"
+    }
+  },
+  {
+    $group: {
+      _id: "$company.title",
+      userCount: {
+        $sum :1
+      }
+    }
+  }
+]
+
+
+join two table
+[
+  {
+    $lookup: {
+      from: "authors",
+      localField: "author_id",
+      foreignField: "_id",
+      as: "author_details"
+    }
+  },
+  {
+    $addFields: {
+      author_details: {
+        // $first : "$author_details"
+        $arrayElemAt: ["$author_details",0]
+      }
+    }
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

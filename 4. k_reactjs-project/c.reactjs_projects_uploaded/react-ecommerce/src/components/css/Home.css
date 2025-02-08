@@ -1,0 +1,11 @@
+.mainContainer {
+    width: 80%;
+    margin: auto;
+    margin-top: 23px;
+    min-height: calc(100vh - 80px - 70px);
+
+}
+
+*:focus {
+    outline: none;
+}
