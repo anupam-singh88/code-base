@@ -21,6 +21,12 @@ const config = Object.freeze({
   MONGODB_URL: process.env.MONGODB_URL || "mongodb://localhost:27017",
   DB_NAME: process.env.DB_NAME || "defaultDB",
 
+  DB_NAME: process.env.DB_NAME || "defaultDB",
+  DB_USER: process.env.DB_USER || "root",
+  DB_PASS: process.env.DB_PASS || "1234",
+  DB_HOST: process.env.DB_HOST || "localhost",
+  DB_PORT: process.env.DB_PORT || 3306,
+
   ACCESS_TOKEN_EXPIRY: process.env.ACCESS_TOKEN_EXPIRY || "1h",
   REFRESH_TOKEN_EXPIRY: process.env.REFRESH_TOKEN_EXPIRY || "7d",
   ACCESS_TOKEN_SECRET: requireEnv("ACCESS_TOKEN_SECRET"),

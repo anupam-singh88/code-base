@@ -19,9 +19,9 @@ process.on("unhandledRejection", (reason, promise) => {
   logger.error("Unhandled Promise Rejection:", { reason, promise });
 });
 
-// Constants for retry logic
 const MAX_RETRIES = 5;
 const INITIAL_RETRY_DELAY = 5000; // 5 seconds
+const MAX_RETRY_DELAY = 60000; // 1 minute
 
 const startServer = async () => {
   try {
@@ -38,7 +38,7 @@ const startServer = async () => {
         logger.error(`DB Connection Failed! Retries left: ${retries - 1}`);
         retries--;
         await new Promise((res) => setTimeout(res, delay));
-        delay *= 2; // Exponential backoff
+        delay = Math.min(delay * 2, MAX_RETRY_DELAY); // Exponential backoff with a cap
       }
     }
 

@@ -53,15 +53,24 @@ User.init(
       type: DataTypes.STRING,
       allowNull: false,
       unique: true,
+      validate: {
+        len: [3, 50], // Ensure username length is between 3 and 50 characters
+      },
     },
     email: {
       type: DataTypes.STRING,
       allowNull: false,
       unique: true,
+      validate: {
+        isEmail: true, // Ensure the email is valid
+      },
     },
     fullName: {
       type: DataTypes.STRING,
       allowNull: false,
+      validate: {
+        len: [2, 100], // Ensure full name length is between 2 and 100 characters
+      },
     },
     profileImage: {
       type: DataTypes.JSON,
@@ -69,6 +78,9 @@ User.init(
     password: {
       type: DataTypes.STRING,
       allowNull: false,
+      validate: {
+        len: [8, 100], // Ensure password length is between 8 and 100 characters
+      },
     },
     refreshToken: {
       type: DataTypes.STRING,
@@ -91,6 +103,12 @@ User.init(
         }
       },
     },
+    // indexes: [
+    //   {
+    //     unique: true,
+    //     fields: ["username", "email"], // Add indexes for frequently queried fields
+    //   },
+    // ],
   }
 );
 

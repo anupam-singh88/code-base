@@ -1,5 +1,6 @@
 import { sequelize } from "../db/dbConnect.js";
 import User from "./User.model.js";
+import logger from "../utils/logger.js";
 
 const models = {
   User,
@@ -9,9 +10,9 @@ const models = {
 const syncModels = async () => {
   try {
     await sequelize.sync({ alter: true }); // Use { force: true } to drop and recreate tables
-    console.log("All models were synchronized successfully.");
+    logger.info("All models were synchronized successfully.");
   } catch (error) {
-    console.error("Error synchronizing models:", error);
+    logger.error("Error synchronizing models:", error);
   }
 };
 
